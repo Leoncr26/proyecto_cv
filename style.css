@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:wght@200&display=swap');
+*{font-family: 'Poppins', sans-serif; 
+    
+    }
+
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(118deg, rgba(34,193,195,1) 18%, rgba(253,163,45,1) 80%);
+    height: 99vh;
+    width: 99vw; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    
+}
+.foto_leo{
+    width: 10em;
+    height: 10em;
+    border-radius: 99%;
+    border: solid 2px #360940;
+    align-content: center;
+    margin: 15px 0px 0px 30px;
+    
+}
+header{
+display:flex;
+justify-content:center;
+}
+header h1{
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+header p{
+margin: 1px 0px;
+font-size: 1.8em;
+}
+.logoug{
+    width: 3em;
+    height: 3em;
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+.foto_text{
+    display: flex;
+    align-content: space-around;   
+}
+
+.contenedor_cv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+.contenedor_cv h1{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline 4px #8C1BAB ; 
+    margin-top: 10px;  
+    margin-bottom: 10px;
+    }
+.contenedor_cv h2{
+    margin-bottom: 0px;
+    font-size: 1.2em;
+    
+}
+.contenedor_cv p{
+    margin-top: 0px;
+}
+ 
+
+
+nav{
+    flex:1;
+    margin: 1em;
+}
+nav p{
+    font-size: 1.4em;
+}
+main{
+    flex: 1;
+    margin: 1em;
+}
+main p{
+    margin:1px 2px 0px 2px;
+}
+aside{
+    flex: 1;
+    margin: 1em;
+} 
+
+footer{
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    width: 100%;
+    margin-top: auto;
+    
+  
+}
+footer ul li{
+    display: inline-block; 
+    margin: 0px 40px 0px 40px;
+    transition: .9s;
+} 
+footer ul:hover li{
+    
+   filter:blur(2px);
+}
+footer ul li:hover {
+   scale: 1.8;
+   filter: none; 
+}
+@media (max-width:700px) {
+    .contenedor_cv{
+       
+       flex-direction: column; 
+    }
+   header h1{
+    font-size: 1.8em;
+    margin-left: 10px;
+   }
+   header p{
+    font-size: 1.4em;
+    margin-left: 10px;
+   }
+   .foto_leo{
+    width: 7.5em;
+    height:7.5em ;
+    position: relative;
+    right: 19px;
+   }
+   .contenedor_cv h1{
+    font-size: 1.5em;
+   }
+   .contenedor_cv h2{
+    font-size: 1em;
+   }
+    footer ul li{
+        margin: 10px;}
+    .logoug{
+        position: inherit;
+    }
+    }
